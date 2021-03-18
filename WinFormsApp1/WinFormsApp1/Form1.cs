@@ -16,10 +16,12 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
-        public bool Tong(int a, int b)
+
+        public int Tong(int a, int b)
         {
-           
+            return a + b;
         }
+
         public bool Login(string username, string password)
         {
             if (username == "admin" || password == "123")
@@ -28,6 +30,8 @@ namespace WinFormsApp1
 
             }
             return false;
+
         }
+
     }
 }
