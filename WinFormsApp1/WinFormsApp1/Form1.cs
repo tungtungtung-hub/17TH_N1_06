@@ -16,6 +16,10 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+        public int t1(int a)
+        {
+            return a;
+        }
 
     }
 }
