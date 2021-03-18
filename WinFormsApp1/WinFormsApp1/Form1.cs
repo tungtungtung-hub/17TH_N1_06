@@ -25,5 +25,21 @@ namespace WinFormsApp1
             }
             return false;
 
+        public int Tong(int a, int b)
+        {
+            return a + b;
+        }
+
+        public bool Login(string username, string password)
+        {
+            if (username == "admin" || password == "123")
+            {
+                return true;
+
+            }
+            return false;
+
+        }
+
     }
 }
