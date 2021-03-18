@@ -16,6 +16,14 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+        public bool Login(string username, string password)
+        {
+            if (username == "admin" || password == "123")
+            {
+                return true;
+
+            }
+            return false;
 
     }
 }
